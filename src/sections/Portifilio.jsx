@@ -13,7 +13,7 @@ function Portifilio() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className='text-center text-4xl md:text-5xl font-bold'>
-          Portfolio
+          Projets
         </h2>
 
         <h5 className='text-center text-lg md:text-xl italic my-12 text-gray-600'>
