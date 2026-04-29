@@ -4,7 +4,6 @@ export const profileData = {
   bio: "Développeur basé en Côte d'Ivoire, je me spécialise dans la création de solutions informatiques modernes et performantes.",
   years_of_experience: 1,
   profile_picture: "/logo.jpg",
-  cv_url: "",
   github_url: "https://github.com/RowannDavid",
   linkedin_url: "https://www.linkedin.com/in/rowann-eli-david-kian-029625334/"
 };
@@ -14,19 +13,19 @@ export const servicesData = [
     icon_name: "Monitor",
     title: "Développement Web",
     description: "Création de sites web responsives, rapides et modernes pour améliorer votre présence en ligne.",
-    skills: [{ name: "React" }, { name: "Grails" }, { name: "Tailwind CSS" }]
+    skills: [{ name: "React" }, { name: "Grails" }, { name: "Tailwind CSS" }],
   },
   {
     icon_name: "Smartphone",
     title: "Développement Mobile",
     description: "Création d'applications mobiles performantes et intuitives pour iOS et Android.",
-    skills: [{ name: "Flutter" }]
+    skills: [{ name: "Flutter" }],
   },
   {
     icon_name: "Database",
     title: "Backend & API",
     description: "Conception d'architectures robustes, sécurisées et d'API RESTful pour vos applications.",
-    skills: [{ name: "Grails" }, { name: "PostgreSQL" }, { name: "Spring Boot" }]
+    skills: [{ name: "Grails" }, { name: "PostgreSQL" }, { name: "Spring Boot" }],
   }
 ];
 
@@ -64,7 +63,10 @@ export const skillCategoriesData = [
       { name: "React", level: 65, icon_emoji: "⚛️" },
       { name: "JavaScript", level: 50, icon_emoji: "💛" },
       { name: "Tailwind CSS", level: 40, icon_emoji: "🌊" },
-      { name: "Angular JS", level: 30, icon_emoji: "🟢" }
+      { name: "Angular JS", level: 30, icon_emoji: "🟢" },
+      { name: "React", level: 85, icon_emoji: "⚛️" },
+      { name: "JavaScript", level: 90, icon_emoji: "💛" },
+      { name: "Tailwind CSS", level: 80, icon_emoji: "🌊" }
     ]
   },
   {
@@ -74,7 +76,10 @@ export const skillCategoriesData = [
       { name: "Django", level: 60, icon_emoji: "🐍" },
       { name: "Spring Boot", level: 55, icon_emoji: "🍃" },
       { name: "Node.js", level: 30, icon_emoji: "🟢" },
-      { name: "Express js", level: 30, icon_emoji: "🟢" }
+      { name: "Express js", level: 30, icon_emoji: "🟢" },
+      { name: "Django", level: 80, icon_emoji: "🐍" },
+      { name: "Spring Boot", level: 75, icon_emoji: "🍃" },
+      { name: "Node.js", level: 70, icon_emoji: "🟢" }
     ]
   },
   {
@@ -82,6 +87,8 @@ export const skillCategoriesData = [
     skills: [
       { name: "PostgreSQL", level: 60, icon_emoji: "🐘" },
       { name: "Git", level: 65, icon_emoji: "📦" },
+      { name: "PostgreSQL", level: 80, icon_emoji: "🐘" },
+      { name: "Git", level: 85, icon_emoji: "📦" },
       { name: "Docker", level: 65, icon_emoji: "🐳" }
     ]
   }
@@ -106,6 +113,6 @@ export const certificationsData = [
     title: "Academie des jeunes developper 3eme edition",
     issuer: "proactive.siwss",
     date: "2026",
-    description: "Compréhension des principes fondamentaux de la developpement web fullstack avec grails et angular js et des bonnes pratiques."
-  }
+    description: "Compréhension des principes fondamentaux de la developpement web fullstack avec grails et angular js et des bonnes pratiques.",
+  },
 ];
