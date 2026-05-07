@@ -46,7 +46,7 @@ export const projectsData = [
     title: "Application de Gestion de Rendez-vous",
     description: "Un système de réservation de rendez-vous pour les professionnels.",
     long_description: "Application fullstack permettant aux clients de prendre rendez-vous avec des professionnels, avec notifications et rappels automatiques.",
-    image: null,
+    image: "/Acueil_rdv.png",
     skills: [{ name: "React" }, { name: "Spring Boot" }, { name: "PostgreSQL" }],
     live_demo_url: "",
     github_url: "https://github.com/RowannDavid",
