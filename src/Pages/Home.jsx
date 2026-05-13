@@ -1,4 +1,5 @@
 import React from 'react'
+import { Analytics } from "@vercel/analytics/react"
 import Navbar from '../components/Navbar'
 import Hero from '../sections/hero'
 import About from '../sections/About'
@@ -12,18 +13,19 @@ import Footer from '../components/Footer'
 export default function Home() {
   return (
     <>
-        <Navbar />
+      <Navbar />
 
-        <main className='pt-20'>
-            <Hero />
-            <About />
-            <Services />
-            <Portifilio />
-            <Competence />
-            <Contact />
-        </main>
+      <main className='pt-20'>
+        <Hero />
+        <About />
+        <Services />
+        <Portifilio />
+        <Competence />
+        <Analytics />
+        <Contact />
+      </main>
 
-        <Footer />
+      <Footer />
     </>
   )
 }
